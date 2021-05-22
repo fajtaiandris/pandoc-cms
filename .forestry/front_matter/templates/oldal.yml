@@ -2,10 +2,10 @@
 label: oldal
 hide_body: false
 fields:
-- name: Cim
+- name: title
   type: text
   config:
     required: true
     min: 2
-  label: title
+  label: Cím
   description: a weblap címe
