@@ -1,4 +1,11 @@
 ---
 label: oldal
 hide_body: false
-fields: []
+fields:
+- name: Cim
+  type: text
+  config:
+    required: true
+    min: 2
+  label: title
+  description: a weblap címe
