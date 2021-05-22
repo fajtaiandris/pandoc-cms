@@ -16,7 +16,7 @@ jobs:
         run: sudo apt-get install pandoc
       
       - name: Compile site...
-        run: ./compile.sh
+        run: ./pandoc-cms.sh
     
       - name: FTP upload
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
