@@ -1,5 +1,4 @@
 ---
-Cim: Rólunk
 title: Rólunk
 
 ---
