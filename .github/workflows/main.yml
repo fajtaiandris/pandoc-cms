@@ -11,7 +11,9 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      - uses: docker://pandoc/core:2.9
+      
+      - name: Install pandoc...
+        run: sudo apt-get install pandoc
       
       - name: Compile site...
         run: ./compile.sh
