@@ -1,5 +1,4 @@
 ---
-Cim: kezdőlap
 title: Kezdőlap
 
 ---
