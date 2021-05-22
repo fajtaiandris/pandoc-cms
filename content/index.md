@@ -1,5 +1,6 @@
 ---
 Cim: kezdőlap
+title: Kezdőlap
 
 ---
 ## Üdvözlünk az oldalon
