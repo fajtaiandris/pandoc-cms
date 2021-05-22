@@ -1,5 +1,6 @@
 ---
 Cim: Rólunk
+title: Rólunk
 
 ---
 ## Ezek vagyunk mi
