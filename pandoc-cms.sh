@@ -49,7 +49,7 @@ mkdir out
 # =============================================================================
 #                                GENERATING SITES
 # =============================================================================
-# The examples doesn't use a template just for the sake of readability.
+# The examples don't use a templates for the sake of readability.
 #
 # -----------------------------------------------------------------------------
 #                                  One by one
