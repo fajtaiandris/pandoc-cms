@@ -93,3 +93,17 @@ mkdir out
 # The template for the temporary files called 'iterator.html' would not
 # include the '$body$' tag, only tags for metadata, like title and author.
 #
+#
+# =============================================================================
+#                                     TIPS
+# =============================================================================
+#
+# I. Instead of linking pictures relatively on your site, just create a top
+#    level 'media' folder and use absolute path for that everywhere.
+#    Benefits:
+#    - Markdown files will render with the pictures.
+#    - Easier editing for your clients, especially if you use Forestry, or
+#      some other content editing tools.
+#
+#
+#
