@@ -19,7 +19,7 @@ do
 done
 
 # Merging the temporary files into one html.
-pandoc -s --template templates/post-list.html tmp/blogtitles/*.html -o out/blogs.html
+pandoc -s --template templates/post-list.html tmp/blogtitles/*.html -o out/all-posts.html
 
 # Creating a page for each blog post.
 mkdir out/blog
@@ -28,7 +28,7 @@ for infile in $contentfiles
 do
     base=`basename -s .md ${infile}`
     outfile="out/blog/${base}.html"
-    pandoc -s --template templates/blog-post.html -M back="../blogs.html" $infile -o $outfile
+    pandoc -s --template templates/blog-post.html -M back="../all-posts.html" $infile -o $outfile
 done
 
 # Note that the blog posts will show up in alphabetical order.
