@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+		<title> $title$ </title>
+	</head>
+	<body>
+		<h1>Example Site</h1>
+		<div>
+      ${for(nav)}
+      <div style="display: inline">
+        <a href="${nav.href}">${nav.label}</a>
+      </div>
+      ${endfor}
+    </div>
+		$body$
+	</body>
+</html>

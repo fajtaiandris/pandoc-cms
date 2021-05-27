@@ -1,0 +1,9 @@
+nav:
+  - label: Home
+    href: index.html
+    
+  - label: Page1
+    href: page1.html
+    
+  - label: Page2
+    href: page2.html

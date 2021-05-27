@@ -37,3 +37,6 @@ do
     outfile="out/${base}"
     pandoc -s --template templates/site.html tmp/navbar.html $infile -o $outfile
 done
+
+# To create a new page on this site, you simply have to make a new content file
+# and the navigation bar will be dynamically generated.
